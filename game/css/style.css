@@ -1,0 +1,109 @@
+* {
+  font-family: url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+  background-color: #9C835F;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div .backtools {
+  /* margin-top: 15px; */
+  margin-left: 40px;
+}
+
+.main-game .logo1 {
+  width: 72px;
+  height: auto;
+  padding-left: 30px;
+  /* margin-top: 15px; */
+}
+
+.main-game span {
+  padding-left: 30px;
+  padding-bottom: 15px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #F9B23D;
+  text-transform: uppercase;
+}
+
+/* Main Content */
+.choices {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 40px;
+}
+
+.player1 {
+  padding-left: 360px;
+}
+
+.com {
+  padding-left: 315px;
+}
+
+.rock1 {
+  margin-left: 380px;
+  margin-top: 20px;
+  width: 95px;
+  height: 70px;
+}
+
+.rock2 {
+  margin-left: 320px;
+  margin-top: 20px;
+  width: 95px;
+  height: 70px;
+}
+
+.paper1 {
+  margin-left: 395px;
+  margin-top: 20px;
+  width: 70px;
+  height: 95px;
+}
+
+.vs {
+  margin-left: 120px;
+  font-size: 72px;
+  color: #BD0000;
+}
+
+.paper2 {
+  margin-left: 130px;
+  margin-top: 20px;
+  width: 70px;
+  height: 95px;
+}
+
+.scissors1 {
+  margin-left: 390px;
+  margin-top: 30px;
+  width: 80px;
+  height: 105px;
+}
+
+.scissors2 {
+  margin-left: 340px;
+  margin-top: 30px;
+  width: 80px;
+  height: 105px;
+}
+
+.rock1:hover, .paper1:hover, .scissors1:hover {
+  background-color: #C4C4C4;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.result {
+  text-align: center;
+}
+/* Reset Button */
+.refresh {
+  width: 40px;
+  padding-top: 50px;
+  margin-left: 620px;
+  margin-bottom: 50px;
+}
